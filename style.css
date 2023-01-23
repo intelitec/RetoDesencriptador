@@ -1,0 +1,113 @@
+body{
+  background-color: #E5E5E5;
+}
+
+main{
+   display: flex;
+   margin-left: 80px;
+   margin-bottom: 50px;
+}
+
+.cuadrotxt{
+    margin-top: 90px;
+}
+
+.msg{
+  position: relative;
+  margin-top: -30px;
+  margin-left: 90px;
+  
+  background-image: url("img/munheco.png");
+  background-repeat: no-repeat;
+  background-position: 25px;
+  height: 550px;
+  width: 400px;
+  
+}
+
+.caja-botones{
+ margin: 0 auto;
+ display: flex;
+ width:95%;
+}
+
+.btnEncriptar{
+  
+  width: 50%;
+  margin-top: 10%;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background: orange;
+  border:none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor:pointer;
+}
+
+.btnEncriptar:hover{
+  background: #171101;
+  transition: 1s all;
+}
+
+.btnDesencriptar{
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 45px;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background: orange;
+  border:none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor:pointer;
+  
+}
+
+.btnDesencriptar:hover{
+   background: #171101;
+}
+
+.informativo_txt{
+  /*margin: 20px 10 10 0;*/
+  
+  color:#0c0125;
+  font-size: 13px;
+  margin: 5px 0 5px 0;
+}
+
+.btnCopy{
+  
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  padding: 5px 0;
+  font-size: 20px;
+  color:white;
+  background: orange;
+  transition: 1s all;
+  font-weight: bold;
+  cursor:pointer;
+  margin-top: 1px;
+  margin-left: 205px;
+  
+
+}
+
+.btnCopy:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+.txtcontenedor{
+  width: 80%;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 170px;
+}
+
+.informacion{
+  font-size: 15px;
+}
